@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/panshenkowski/KuanyshKadyrov-190103466-pr
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "new"]
+	url = https://github.com/panshenkowski/KuanyshKadyrov-190103466-cvv
+	fetch = +refs/heads/*:refs/remotes/new/*
